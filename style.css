@@ -97,6 +97,31 @@ main{
     font-weight: 700;
 }
 
+/*features section*/
+.features-section{
+    margin: 10px;
+    gap: 80px;
+    display: flex;
+    padding: 50px 150px;
+}
+.features-content .section-title{
+    font-size: 2.5rem;
+}
+.features-img img{
+    margin-top: 100px;
+    width: 450px;
+    height: 800px;
+}
+
+.features-content .card{
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
 
 
 
