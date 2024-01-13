@@ -51,6 +51,9 @@ nav li a{
     cursor: pointer;
     border: 0;
 }
+.btn-primary:hover {
+    border: 3px solid black;
+}
 .banner img{
     margin-top: 20px;
     width: 100%;
@@ -146,11 +149,6 @@ main{
         display: block;
     }
     .teams-img-container{
-      
         display: grid;
-        
-
-      
-    
     }
 }
