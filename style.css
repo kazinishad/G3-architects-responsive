@@ -189,6 +189,18 @@ main{
     border-radius: 10px;
 }
 
+/*copyright section*/
+.copyright-section{
+    padding:20px 120px 150px 120px ;
+   
+}
+.copyright{
+    background-color: #FFF4E7;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
 
 
 
@@ -279,6 +291,23 @@ main{
     .sponserall img{
        width: 100px;
     }
+    .copyright-section{
+        padding:10px;
+       
+    }
+    .copyright{
+        background-color: #FFF4E7;
+        height: 50px;
+        text-align: center;
+        padding-top: 2px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        
+    }
+    .copyright-text{
+        font-size: 15px;
+    }
+    
 
 }
 
@@ -344,5 +373,10 @@ main{
     .sponserall img{
         width: 100px;
      }
+     .copyright-section{
+        padding:10px 60px 80px 60px ;
+       
+    }
+    
 
 }
