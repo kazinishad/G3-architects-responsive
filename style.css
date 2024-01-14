@@ -122,6 +122,47 @@ main{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
+/*facts section*/
+.facts-secton{
+    margin-top: -50px;
+    padding: 0px 240px;
+
+}
+.facts-secton h5{
+    font-size: 2.5rem;
+}
+.facts-secton .facts-content{
+    width: 50%;
+    margin-top: -40px;
+}
+/*awards section*/
+.awards-section{
+    gap:80px;
+    display: flex;
+    padding: 0px 240px;
+}
+.awards{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+
+}
+.awards img{
+    padding-top: 40px ;
+}
+.awards h5{
+   margin-top: 0px;
+    font-size:1.8rem;
+
+}
+.awards h6{
+
+    font-size: 1.2rem;
+    margin-top: -40px;
+}
 
 
 
@@ -174,6 +215,29 @@ main{
         width: 380px;
         height: 600px;
     }
+    .facts-secton{
+        margin-top: -50px;
+        padding: 0px 20px;
+    
+    }
+    .facts-secton .facts-content{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .awards-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2px;
+        padding: 0px 0px;
+        margin-left: 15px;
+    }
+    .awards{
+        width: 180px;
+        height: 180px;
+        padding: 0px 0px;
+        margin-top: 8px;
+    }
+
 }
 
 /*tablet or medium devices*/
@@ -207,4 +271,21 @@ main{
         width: 480px;
         height: 800px;
     }
+    .facts-secton .facts-content{
+        width: 100%;
+        margin-top: -40px;
+    }
+    .awards-section{
+        gap:60px;
+        display: flex;
+        padding: 0px 180px;
+    }
+    .awards{
+      
+        width: 500px;
+        height: 180px;
+     
+    
+    }
+
 }
