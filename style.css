@@ -142,7 +142,7 @@ main{
     padding: 0px 240px;
 }
 .awards{
-    border: 1px solid grey;
+    border: 1px solid #FF900E;
     border-radius: 10px;
     width: 200px;
     height: 180px;
@@ -164,7 +164,30 @@ main{
     margin-top: -40px;
 }
 
-
+/*sponser section*/
+.sponser-section{
+    margin-top: 50px;
+    padding: 0px 240px;
+}
+.sponser-content{
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  margin-left: 200px;
+}
+.sponser-content h1{
+    font-size: 2rem;
+}
+.sponser-company {
+    display: flex;
+    padding: 40px 120px;
+    gap: 70px;
+}
+ .sponserall img{
+    background-color: #d4cbcb;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 
 
@@ -181,7 +204,7 @@ main{
         flex-direction: column;
     }
     .nav-title{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .teams-container{
         padding: 0px 15px 0px 0px;
@@ -237,6 +260,25 @@ main{
         padding: 0px 0px;
         margin-top: 8px;
     }
+    .sponser-section{
+        margin-top: 50px;
+        padding: 0px 10px;
+    }
+    .sponser-content{
+      text-align: center;
+      justify-content: center;
+      width: 400px;
+      margin-left: 0px;
+    }
+    .sponser-company {
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 2px;
+       padding: 2px 50px
+    }
+    .sponserall img{
+       width: 100px;
+    }
 
 }
 
@@ -281,11 +323,26 @@ main{
         padding: 0px 180px;
     }
     .awards{
-      
         width: 500px;
         height: 180px;
-     
-    
     }
+    .sponser-section{
+        margin-top: 50px;
+        padding: 0px 40px;
+    }
+    .sponser-content{
+      text-align: center;
+      justify-content: center;
+      width: 500px;
+      margin-left: 130px;
+    }
+    .sponser-company {
+        display: flex;
+        padding: 40px 70px;
+        gap: 40px;
+    }
+    .sponserall img{
+        width: 100px;
+     }
 
 }
